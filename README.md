@@ -1,8 +1,6 @@
 # netfilter_test
-
-- For blocking web sites
+- Kernel module to block websites
 - Add rules in firewall.rules
-
 
 
 ## Build
