@@ -16,4 +16,6 @@ make
 ```
 sudo ./firewall.sh
 ```
-
+```
+sudo rmmod firewall
+```
