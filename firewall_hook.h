@@ -156,6 +156,7 @@ void hookFinish(void)
 {
 	
 	nf_unregister_net_hook(&init_net, n_h_o);
+	kfree(n_h_o);
 	printk(KERN_INFO "Hook Finished\n");
 	
 }

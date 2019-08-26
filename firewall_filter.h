@@ -46,5 +46,6 @@ void addFilter(__s8 *rule_string)
 void delFilter(void)
 {
 	hookFinish();
+	kfree(rules);
 }
 
