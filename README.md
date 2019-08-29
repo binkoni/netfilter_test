@@ -1,5 +1,5 @@
 # netfilter_test
-- Kernel module to block websites
+- Kernel module to block websites by host name
 - Add rules in firewall.rules
 
 
